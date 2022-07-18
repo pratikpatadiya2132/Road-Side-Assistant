@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiceChargeActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_accident_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Accident Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_bettery_jump_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Battery Jump Start Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_clutch_break_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Clutch/Break Problem Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_fuel_problem_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fuel Problem Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_lost_key_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lost/Locked Key Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_towing_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Towing Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_tyre_damage_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tyre Damage Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:maxLength="5"
+            android:inputType="number"
+            android:id="@+id/service_charge_other_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Other Tentitive Charge"
+            android:textColorHint="@color/gray" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/service_charge_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

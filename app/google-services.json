@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989945997846",
+    "firebase_url": "https://road-side-assistant.firebaseio.com",
+    "project_id": "road-side-assistant",
+    "storage_bucket": "road-side-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989945997846:android:ed22116e40b4c3623f2337",
+        "android_client_info": {
+          "package_name": "brainybeam.standdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989945997846-ag7bffuk37tmho78m52pqhm2c53j76hk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brainybeam.standdapp",
+            "certificate_hash": "fd0ebf2589d56051195f21bab75b3f35d708327c"
+          }
+        },
+        {
+          "client_id": "989945997846-u1gc5f4vm6a0c8esjbt5d3875r1huqj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgaey8ZOv18cto9lpjkg_Mij3SRUAJL3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989945997846-u1gc5f4vm6a0c8esjbt5d3875r1huqj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
